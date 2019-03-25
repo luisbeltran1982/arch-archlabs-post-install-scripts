@@ -34,16 +34,16 @@ echo "###############       mirrorlist updated      ###################"
 echo "################################################################"
 
 #software from 'normal' repositories
-sudo pacman -S --noconfirm --needed ntfs-3g wget curl
-sudo pacman -S --noconfirm --needed mpv cmus libmad youtube-dl mps-youtube
-sudo pacman -S --noconfirm --needed glances neofetch numlockx kodi
-sudo pacman -S --noconfirm --needed noto-fonts ttf-roboto gtk-engine-murrine adapta-gtk-theme papirus-icon-theme arc-gtk-theme
-sudo pacman -S --noconfirm --needed chromium gparted qbittorrent evince grsync mcomix libreoffice-fresh pepper-flash
+sudo pacman -S --noconfirm --needed git ntfs-3g wget curl socat
+sudo pacman -S --noconfirm --needed mpv youtube-dl mps-youtube
+sudo pacman -S --noconfirm --needed neofetch numlockx
+sudo pacman -S --noconfirm --needed noto-fonts ttf-roboto gtk-engine-murrine
+sudo pacman -S --noconfirm --needed chromium qbittorrent mcomix libreoffice-still pepper-flash
 
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller p7zip lrzip
+sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract p7zip lrzip file-roller
 
 ###############################################################################################
 
@@ -95,7 +95,7 @@ else
 fi
 
 #Software from AUR
-yay -S --noconfirm ttf-roboto-mono cmusfm gotop-bin xfce-theme-greybird elementary-xfce-icons ttf-google tiny-media-manager-bin
+yay -S --noconfirm ttf-roboto-mono droid-min gotop-bin xfce-theme-greybird-git elementary-xfce-icons-git tiny-media-manager-bin pyradio-git dropbox
 
 echo "################################################################"
 echo "###################    core software installed  ################"

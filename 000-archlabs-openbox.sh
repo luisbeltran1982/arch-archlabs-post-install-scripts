@@ -38,9 +38,9 @@ echo "################################################################"
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed ntfs-3g wget curl
 sudo pacman -S --noconfirm --needed mpv youtube-dl mps-youtube socat
-sudo pacman -S --noconfirm --needed neofetch lxappearance-obconf papirus-icon-theme
-sudo pacman -S --noconfirm --needed easytag kodi mcomix
-sudo pacman -S --noconfirm --needed chromium firefox pepper-flash
+sudo pacman -S --noconfirm --needed neofetch lxappearance-obconf
+sudo pacman -S --noconfirm --needed easytag mcomix
+sudo pacman -S --noconfirm --needed chromium pepper-flash
 
 ###############################################################################################
 

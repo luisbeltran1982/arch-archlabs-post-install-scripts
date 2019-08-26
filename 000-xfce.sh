@@ -115,7 +115,7 @@ else
 fi
 
 #Software from AUR
-yay -S --noconfirm --needed gotop-bin pyradio-git mpdscribble mpd-notification xfce-theme-greybird elementary-xfce-icons-git tiny-media-manager dropbox
+yay -S --noconfirm --needed gotop-bin pyradio-git mpdscribble mpd-notification xfce-theme-greybird-git elementary-xfce-icons-git tiny-media-manager dropbox
 
 echo "################################################################"
 echo "###################    core software installed  ################"

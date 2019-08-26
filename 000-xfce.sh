@@ -38,8 +38,8 @@ echo "################################################################"
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed ntfs-3g wget curl
 sudo pacman -S --noconfirm --needed mpv youtube-dl mps-youtube socat gtk-engine-murrine
-sudo pacman -S --noconfirm --needed neofetch numlockx geany easytag kodi
-sudo pacman -S --noconfirm --needed chromium pepper-flash libreoffice-still firefox
+sudo pacman -S --noconfirm --needed neofetch numlockx geany easytag
+sudo pacman -S --noconfirm --needed chromium pepper-flash libreoffice-still
 
 ###############################################################################################
 
